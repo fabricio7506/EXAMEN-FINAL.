@@ -1,0 +1,11 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F3F4F6"
+    android:columnCount="4"
+    android:rowCount="4"
+    android:alignmentMode="alignMargins"
+    android:useDefaultMargins="true"
+    android:id="@+id/gridLayout" />

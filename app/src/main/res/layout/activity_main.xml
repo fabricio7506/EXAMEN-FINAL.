@@ -1,0 +1,55 @@
+<!--Se define una interfaz de usuario en Android usando un LinearLayout
+    que organiza elementos de forma vertical. Se incluye un título y
+tres botones, con un diseño centrado y un fondo personalizado.-->
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="16dp"
+android:background="@drawable/background_image">
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Juego de Memoria"
+    android:shadowColor="#000000"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="4"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"
+    android:textColor="#FFFFFF" />
+
+<Button
+    android:id="@+id/btn2x2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TABLERO 2X2"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/rounded_button"
+    android:textColor="#FFFFFF" />
+
+<Button
+    android:id="@+id/btn4x4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Tablero 4x4"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/rounded_button"
+    android:textColor="#FFFFFF" />
+
+<Button
+    android:id="@+id/btn6x6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TABLERO 6X6"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/rounded_button"
+    android:textColor="#FFFFFF" />
+
+</LinearLayout>
